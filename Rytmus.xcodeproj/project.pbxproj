@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99A8EEAA1C4AB69400A0ED54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EEA91C4AB69400A0ED54 /* AppDelegate.swift */; };
+		99A8EEAC1C4AB69400A0ED54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EEAB1C4AB69400A0ED54 /* ViewController.swift */; };
+		99A8EEAF1C4AB69400A0ED54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A8EEAD1C4AB69400A0ED54 /* Main.storyboard */; };
+		99A8EEB11C4AB69400A0ED54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A8EEB01C4AB69400A0ED54 /* Assets.xcassets */; };
+		99A8EEB41C4AB69400A0ED54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A8EEB21C4AB69400A0ED54 /* LaunchScreen.storyboard */; };
+		99A8EEB91C4AB69400A0ED54 /* Rytmus WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 99A8EEB81C4AB69400A0ED54 /* Rytmus WatchKit App.app */; };
+		99A8EEBF1C4AB69400A0ED54 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A8EEBD1C4AB69400A0ED54 /* Interface.storyboard */; };
+		99A8EEC11C4AB69400A0ED54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A8EEC01C4AB69400A0ED54 /* Assets.xcassets */; };
+		99A8EEC81C4AB69500A0ED54 /* Rytmus WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 99A8EEC71C4AB69500A0ED54 /* Rytmus WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		99A8EECD1C4AB69500A0ED54 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EECC1C4AB69500A0ED54 /* InterfaceController.swift */; };
+		99A8EECF1C4AB69500A0ED54 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EECE1C4AB69500A0ED54 /* ExtensionDelegate.swift */; };
+		99A8EED11C4AB69500A0ED54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A8EED01C4AB69500A0ED54 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99A8EEBA1C4AB69400A0ED54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99A8EE9E1C4AB69400A0ED54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A8EEB71C4AB69400A0ED54;
+			remoteInfo = "Rytmus WatchKit App";
+		};
+		99A8EEC91C4AB69500A0ED54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99A8EE9E1C4AB69400A0ED54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A8EEC61C4AB69500A0ED54;
+			remoteInfo = "Rytmus WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99A8EED81C4AB69500A0ED54 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				99A8EEC81C4AB69500A0ED54 /* Rytmus WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A8EEDC1C4AB69500A0ED54 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				99A8EEB91C4AB69400A0ED54 /* Rytmus WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		99A8EEA61C4AB69400A0ED54 /* Rytmus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rytmus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A8EEA91C4AB69400A0ED54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99A8EEAB1C4AB69400A0ED54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99A8EEAE1C4AB69400A0ED54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99A8EEB01C4AB69400A0ED54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99A8EEB31C4AB69400A0ED54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99A8EEB51C4AB69400A0ED54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A8EEB81C4AB69400A0ED54 /* Rytmus WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rytmus WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A8EEBE1C4AB69400A0ED54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		99A8EEC01C4AB69400A0ED54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99A8EEC21C4AB69400A0ED54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A8EEC71C4AB69500A0ED54 /* Rytmus WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rytmus WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A8EECC1C4AB69500A0ED54 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		99A8EECE1C4AB69500A0ED54 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		99A8EED01C4AB69500A0ED54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99A8EED21C4AB69500A0ED54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99A8EEA31C4AB69400A0ED54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A8EEC41C4AB69500A0ED54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99A8EE9D1C4AB69400A0ED54 = {
+			isa = PBXGroup;
+			children = (
+				99A8EEA81C4AB69400A0ED54 /* Rytmus */,
+				99A8EEBC1C4AB69400A0ED54 /* Rytmus WatchKit App */,
+				99A8EECB1C4AB69500A0ED54 /* Rytmus WatchKit Extension */,
+				99A8EEA71C4AB69400A0ED54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99A8EEA71C4AB69400A0ED54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99A8EEA61C4AB69400A0ED54 /* Rytmus.app */,
+				99A8EEB81C4AB69400A0ED54 /* Rytmus WatchKit App.app */,
+				99A8EEC71C4AB69500A0ED54 /* Rytmus WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99A8EEA81C4AB69400A0ED54 /* Rytmus */ = {
+			isa = PBXGroup;
+			children = (
+				99A8EEA91C4AB69400A0ED54 /* AppDelegate.swift */,
+				99A8EEAB1C4AB69400A0ED54 /* ViewController.swift */,
+				99A8EEAD1C4AB69400A0ED54 /* Main.storyboard */,
+				99A8EEB01C4AB69400A0ED54 /* Assets.xcassets */,
+				99A8EEB21C4AB69400A0ED54 /* LaunchScreen.storyboard */,
+				99A8EEB51C4AB69400A0ED54 /* Info.plist */,
+			);
+			path = Rytmus;
+			sourceTree = "<group>";
+		};
+		99A8EEBC1C4AB69400A0ED54 /* Rytmus WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				99A8EEBD1C4AB69400A0ED54 /* Interface.storyboard */,
+				99A8EEC01C4AB69400A0ED54 /* Assets.xcassets */,
+				99A8EEC21C4AB69400A0ED54 /* Info.plist */,
+			);
+			path = "Rytmus WatchKit App";
+			sourceTree = "<group>";
+		};
+		99A8EECB1C4AB69500A0ED54 /* Rytmus WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				99A8EECC1C4AB69500A0ED54 /* InterfaceController.swift */,
+				99A8EECE1C4AB69500A0ED54 /* ExtensionDelegate.swift */,
+				99A8EED01C4AB69500A0ED54 /* Assets.xcassets */,
+				99A8EED21C4AB69500A0ED54 /* Info.plist */,
+			);
+			path = "Rytmus WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99A8EEA51C4AB69400A0ED54 /* Rytmus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A8EEDD1C4AB69500A0ED54 /* Build configuration list for PBXNativeTarget "Rytmus" */;
+			buildPhases = (
+				99A8EEA21C4AB69400A0ED54 /* Sources */,
+				99A8EEA31C4AB69400A0ED54 /* Frameworks */,
+				99A8EEA41C4AB69400A0ED54 /* Resources */,
+				99A8EEDC1C4AB69500A0ED54 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99A8EEBB1C4AB69400A0ED54 /* PBXTargetDependency */,
+			);
+			name = Rytmus;
+			productName = Rytmus;
+			productReference = 99A8EEA61C4AB69400A0ED54 /* Rytmus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99A8EEB71C4AB69400A0ED54 /* Rytmus WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A8EED91C4AB69500A0ED54 /* Build configuration list for PBXNativeTarget "Rytmus WatchKit App" */;
+			buildPhases = (
+				99A8EEB61C4AB69400A0ED54 /* Resources */,
+				99A8EED81C4AB69500A0ED54 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99A8EECA1C4AB69500A0ED54 /* PBXTargetDependency */,
+			);
+			name = "Rytmus WatchKit App";
+			productName = "Rytmus WatchKit App";
+			productReference = 99A8EEB81C4AB69400A0ED54 /* Rytmus WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		99A8EEC61C4AB69500A0ED54 /* Rytmus WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A8EED51C4AB69500A0ED54 /* Build configuration list for PBXNativeTarget "Rytmus WatchKit Extension" */;
+			buildPhases = (
+				99A8EEC31C4AB69500A0ED54 /* Sources */,
+				99A8EEC41C4AB69500A0ED54 /* Frameworks */,
+				99A8EEC51C4AB69500A0ED54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rytmus WatchKit Extension";
+			productName = "Rytmus WatchKit Extension";
+			productReference = 99A8EEC71C4AB69500A0ED54 /* Rytmus WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99A8EE9E1C4AB69400A0ED54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Vojtech Rinik";
+				TargetAttributes = {
+					99A8EEA51C4AB69400A0ED54 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					99A8EEB71C4AB69400A0ED54 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					99A8EEC61C4AB69500A0ED54 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 99A8EEA11C4AB69400A0ED54 /* Build configuration list for PBXProject "Rytmus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99A8EE9D1C4AB69400A0ED54;
+			productRefGroup = 99A8EEA71C4AB69400A0ED54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99A8EEA51C4AB69400A0ED54 /* Rytmus */,
+				99A8EEB71C4AB69400A0ED54 /* Rytmus WatchKit App */,
+				99A8EEC61C4AB69500A0ED54 /* Rytmus WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99A8EEA41C4AB69400A0ED54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A8EEB41C4AB69400A0ED54 /* LaunchScreen.storyboard in Resources */,
+				99A8EEB11C4AB69400A0ED54 /* Assets.xcassets in Resources */,
+				99A8EEAF1C4AB69400A0ED54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A8EEB61C4AB69400A0ED54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A8EEC11C4AB69400A0ED54 /* Assets.xcassets in Resources */,
+				99A8EEBF1C4AB69400A0ED54 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A8EEC51C4AB69500A0ED54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A8EED11C4AB69500A0ED54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99A8EEA21C4AB69400A0ED54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A8EEAC1C4AB69400A0ED54 /* ViewController.swift in Sources */,
+				99A8EEAA1C4AB69400A0ED54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A8EEC31C4AB69500A0ED54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A8EECF1C4AB69500A0ED54 /* ExtensionDelegate.swift in Sources */,
+				99A8EECD1C4AB69500A0ED54 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99A8EEBB1C4AB69400A0ED54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99A8EEB71C4AB69400A0ED54 /* Rytmus WatchKit App */;
+			targetProxy = 99A8EEBA1C4AB69400A0ED54 /* PBXContainerItemProxy */;
+		};
+		99A8EECA1C4AB69500A0ED54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99A8EEC61C4AB69500A0ED54 /* Rytmus WatchKit Extension */;
+			targetProxy = 99A8EEC91C4AB69500A0ED54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99A8EEAD1C4AB69400A0ED54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A8EEAE1C4AB69400A0ED54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99A8EEB21C4AB69400A0ED54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A8EEB31C4AB69400A0ED54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		99A8EEBD1C4AB69400A0ED54 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A8EEBE1C4AB69400A0ED54 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99A8EED31C4AB69500A0ED54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99A8EED41C4AB69500A0ED54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99A8EED61C4AB69500A0ED54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rytmus WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rinik.Rytmus.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		99A8EED71C4AB69500A0ED54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rytmus WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rinik.Rytmus.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		99A8EEDA1C4AB69500A0ED54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Rytmus_WatchKit_Extension;
+				INFOPLIST_FILE = "Rytmus WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = rinik.Rytmus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		99A8EEDB1C4AB69500A0ED54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Rytmus_WatchKit_Extension;
+				INFOPLIST_FILE = "Rytmus WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = rinik.Rytmus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		99A8EEDE1C4AB69500A0ED54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rytmus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rinik.Rytmus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99A8EEDF1C4AB69500A0ED54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rytmus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rinik.Rytmus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99A8EEA11C4AB69400A0ED54 /* Build configuration list for PBXProject "Rytmus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A8EED31C4AB69500A0ED54 /* Debug */,
+				99A8EED41C4AB69500A0ED54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A8EED51C4AB69500A0ED54 /* Build configuration list for PBXNativeTarget "Rytmus WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A8EED61C4AB69500A0ED54 /* Debug */,
+				99A8EED71C4AB69500A0ED54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99A8EED91C4AB69500A0ED54 /* Build configuration list for PBXNativeTarget "Rytmus WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A8EEDA1C4AB69500A0ED54 /* Debug */,
+				99A8EEDB1C4AB69500A0ED54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99A8EEDD1C4AB69500A0ED54 /* Build configuration list for PBXNativeTarget "Rytmus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A8EEDE1C4AB69500A0ED54 /* Debug */,
+				99A8EEDF1C4AB69500A0ED54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99A8EE9E1C4AB69400A0ED54 /* Project object */;
+}
