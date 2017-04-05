@@ -19,6 +19,22 @@
 		99A8EECD1C4AB69500A0ED54 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EECC1C4AB69500A0ED54 /* InterfaceController.swift */; };
 		99A8EECF1C4AB69500A0ED54 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EECE1C4AB69500A0ED54 /* ExtensionDelegate.swift */; };
 		99A8EED11C4AB69500A0ED54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A8EED01C4AB69500A0ED54 /* Assets.xcassets */; };
+		99A8EEE31C4AB7BB00A0ED54 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EEE21C4AB7BB00A0ED54 /* ChartView.swift */; };
+		99A8EEEE1C4AB82900A0ED54 /* AudioFileReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EEE71C4AB82900A0ED54 /* AudioFileReader.mm */; };
+		99A8EEEF1C4AB82900A0ED54 /* AudioFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EEE91C4AB82900A0ED54 /* AudioFileWriter.m */; };
+		99A8EEF01C4AB82900A0ED54 /* Novocaine.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EEEB1C4AB82900A0ED54 /* Novocaine.m */; };
+		99A8EEF11C4AB82900A0ED54 /* RingBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EEED1C4AB82900A0ED54 /* RingBuffer.mm */; };
+		99A8EEF41C4AB98B00A0ED54 /* Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EEF31C4AB98B00A0ED54 /* Recorder.m */; };
+		99A8EF071C4ABC6400A0ED54 /* NVAllpassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EEF61C4ABC6400A0ED54 /* NVAllpassFilter.m */; };
+		99A8EF081C4ABC6400A0ED54 /* NVBandpassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EEF81C4ABC6400A0ED54 /* NVBandpassFilter.m */; };
+		99A8EF091C4ABC6400A0ED54 /* NVBandpassQPeakGainFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EEFA1C4ABC6400A0ED54 /* NVBandpassQPeakGainFilter.m */; };
+		99A8EF0A1C4ABC6400A0ED54 /* NVHighpassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EEFC1C4ABC6400A0ED54 /* NVHighpassFilter.m */; };
+		99A8EF0B1C4ABC6400A0ED54 /* NVHighShelvingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EEFE1C4ABC6400A0ED54 /* NVHighShelvingFilter.m */; };
+		99A8EF0C1C4ABC6400A0ED54 /* NVLowpassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EF001C4ABC6400A0ED54 /* NVLowpassFilter.m */; };
+		99A8EF0D1C4ABC6400A0ED54 /* NVLowShelvingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EF021C4ABC6400A0ED54 /* NVLowShelvingFilter.m */; };
+		99A8EF0E1C4ABC6400A0ED54 /* NVNotchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EF041C4ABC6400A0ED54 /* NVNotchFilter.m */; };
+		99A8EF0F1C4ABC6400A0ED54 /* NVPeakingEQFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EF061C4ABC6400A0ED54 /* NVPeakingEQFilter.m */; };
+		99A8EF121C4ABC6F00A0ED54 /* NVDSP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99A8EF111C4ABC6F00A0ED54 /* NVDSP.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +96,38 @@
 		99A8EECE1C4AB69500A0ED54 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		99A8EED01C4AB69500A0ED54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99A8EED21C4AB69500A0ED54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A8EEE21C4AB7BB00A0ED54 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		99A8EEE41C4AB7DB00A0ED54 /* Rytmus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rytmus-Bridging-Header.h"; sourceTree = "<group>"; };
+		99A8EEE61C4AB82900A0ED54 /* AudioFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileReader.h; sourceTree = "<group>"; };
+		99A8EEE71C4AB82900A0ED54 /* AudioFileReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioFileReader.mm; sourceTree = "<group>"; };
+		99A8EEE81C4AB82900A0ED54 /* AudioFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileWriter.h; sourceTree = "<group>"; };
+		99A8EEE91C4AB82900A0ED54 /* AudioFileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFileWriter.m; sourceTree = "<group>"; };
+		99A8EEEA1C4AB82900A0ED54 /* Novocaine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Novocaine.h; sourceTree = "<group>"; };
+		99A8EEEB1C4AB82900A0ED54 /* Novocaine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Novocaine.m; sourceTree = "<group>"; };
+		99A8EEEC1C4AB82900A0ED54 /* RingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingBuffer.h; sourceTree = "<group>"; };
+		99A8EEED1C4AB82900A0ED54 /* RingBuffer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RingBuffer.mm; sourceTree = "<group>"; };
+		99A8EEF21C4AB98B00A0ED54 /* Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recorder.h; sourceTree = "<group>"; };
+		99A8EEF31C4AB98B00A0ED54 /* Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recorder.m; sourceTree = "<group>"; };
+		99A8EEF51C4ABC6400A0ED54 /* NVAllpassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVAllpassFilter.h; sourceTree = "<group>"; };
+		99A8EEF61C4ABC6400A0ED54 /* NVAllpassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVAllpassFilter.m; sourceTree = "<group>"; };
+		99A8EEF71C4ABC6400A0ED54 /* NVBandpassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVBandpassFilter.h; sourceTree = "<group>"; };
+		99A8EEF81C4ABC6400A0ED54 /* NVBandpassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVBandpassFilter.m; sourceTree = "<group>"; };
+		99A8EEF91C4ABC6400A0ED54 /* NVBandpassQPeakGainFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVBandpassQPeakGainFilter.h; sourceTree = "<group>"; };
+		99A8EEFA1C4ABC6400A0ED54 /* NVBandpassQPeakGainFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVBandpassQPeakGainFilter.m; sourceTree = "<group>"; };
+		99A8EEFB1C4ABC6400A0ED54 /* NVHighpassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVHighpassFilter.h; sourceTree = "<group>"; };
+		99A8EEFC1C4ABC6400A0ED54 /* NVHighpassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVHighpassFilter.m; sourceTree = "<group>"; };
+		99A8EEFD1C4ABC6400A0ED54 /* NVHighShelvingFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVHighShelvingFilter.h; sourceTree = "<group>"; };
+		99A8EEFE1C4ABC6400A0ED54 /* NVHighShelvingFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVHighShelvingFilter.m; sourceTree = "<group>"; };
+		99A8EEFF1C4ABC6400A0ED54 /* NVLowpassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVLowpassFilter.h; sourceTree = "<group>"; };
+		99A8EF001C4ABC6400A0ED54 /* NVLowpassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVLowpassFilter.m; sourceTree = "<group>"; };
+		99A8EF011C4ABC6400A0ED54 /* NVLowShelvingFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVLowShelvingFilter.h; sourceTree = "<group>"; };
+		99A8EF021C4ABC6400A0ED54 /* NVLowShelvingFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVLowShelvingFilter.m; sourceTree = "<group>"; };
+		99A8EF031C4ABC6400A0ED54 /* NVNotchFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVNotchFilter.h; sourceTree = "<group>"; };
+		99A8EF041C4ABC6400A0ED54 /* NVNotchFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVNotchFilter.m; sourceTree = "<group>"; };
+		99A8EF051C4ABC6400A0ED54 /* NVPeakingEQFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPeakingEQFilter.h; sourceTree = "<group>"; };
+		99A8EF061C4ABC6400A0ED54 /* NVPeakingEQFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPeakingEQFilter.m; sourceTree = "<group>"; };
+		99A8EF101C4ABC6F00A0ED54 /* NVDSP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVDSP.h; sourceTree = "<group>"; };
+		99A8EF111C4ABC6F00A0ED54 /* NVDSP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NVDSP.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +171,13 @@
 		99A8EEA81C4AB69400A0ED54 /* Rytmus */ = {
 			isa = PBXGroup;
 			children = (
+				99A8EEE51C4AB81E00A0ED54 /* Novocaine */,
 				99A8EEA91C4AB69400A0ED54 /* AppDelegate.swift */,
+				99A8EEE41C4AB7DB00A0ED54 /* Rytmus-Bridging-Header.h */,
 				99A8EEAB1C4AB69400A0ED54 /* ViewController.swift */,
+				99A8EEF21C4AB98B00A0ED54 /* Recorder.h */,
+				99A8EEF31C4AB98B00A0ED54 /* Recorder.m */,
+				99A8EEE21C4AB7BB00A0ED54 /* ChartView.swift */,
 				99A8EEAD1C4AB69400A0ED54 /* Main.storyboard */,
 				99A8EEB01C4AB69400A0ED54 /* Assets.xcassets */,
 				99A8EEB21C4AB69400A0ED54 /* LaunchScreen.storyboard */,
@@ -152,6 +205,41 @@
 				99A8EED21C4AB69500A0ED54 /* Info.plist */,
 			);
 			path = "Rytmus WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		99A8EEE51C4AB81E00A0ED54 /* Novocaine */ = {
+			isa = PBXGroup;
+			children = (
+				99A8EEE61C4AB82900A0ED54 /* AudioFileReader.h */,
+				99A8EEE71C4AB82900A0ED54 /* AudioFileReader.mm */,
+				99A8EEE81C4AB82900A0ED54 /* AudioFileWriter.h */,
+				99A8EEE91C4AB82900A0ED54 /* AudioFileWriter.m */,
+				99A8EEEA1C4AB82900A0ED54 /* Novocaine.h */,
+				99A8EEEB1C4AB82900A0ED54 /* Novocaine.m */,
+				99A8EEEC1C4AB82900A0ED54 /* RingBuffer.h */,
+				99A8EEED1C4AB82900A0ED54 /* RingBuffer.mm */,
+				99A8EF101C4ABC6F00A0ED54 /* NVDSP.h */,
+				99A8EF111C4ABC6F00A0ED54 /* NVDSP.mm */,
+				99A8EEF51C4ABC6400A0ED54 /* NVAllpassFilter.h */,
+				99A8EEF61C4ABC6400A0ED54 /* NVAllpassFilter.m */,
+				99A8EEF71C4ABC6400A0ED54 /* NVBandpassFilter.h */,
+				99A8EEF81C4ABC6400A0ED54 /* NVBandpassFilter.m */,
+				99A8EEF91C4ABC6400A0ED54 /* NVBandpassQPeakGainFilter.h */,
+				99A8EEFA1C4ABC6400A0ED54 /* NVBandpassQPeakGainFilter.m */,
+				99A8EEFB1C4ABC6400A0ED54 /* NVHighpassFilter.h */,
+				99A8EEFC1C4ABC6400A0ED54 /* NVHighpassFilter.m */,
+				99A8EEFD1C4ABC6400A0ED54 /* NVHighShelvingFilter.h */,
+				99A8EEFE1C4ABC6400A0ED54 /* NVHighShelvingFilter.m */,
+				99A8EEFF1C4ABC6400A0ED54 /* NVLowpassFilter.h */,
+				99A8EF001C4ABC6400A0ED54 /* NVLowpassFilter.m */,
+				99A8EF011C4ABC6400A0ED54 /* NVLowShelvingFilter.h */,
+				99A8EF021C4ABC6400A0ED54 /* NVLowShelvingFilter.m */,
+				99A8EF031C4ABC6400A0ED54 /* NVNotchFilter.h */,
+				99A8EF041C4ABC6400A0ED54 /* NVNotchFilter.m */,
+				99A8EF051C4ABC6400A0ED54 /* NVPeakingEQFilter.h */,
+				99A8EF061C4ABC6400A0ED54 /* NVPeakingEQFilter.m */,
+			);
+			name = Novocaine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,8 +374,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A8EF0E1C4ABC6400A0ED54 /* NVNotchFilter.m in Sources */,
+				99A8EF0B1C4ABC6400A0ED54 /* NVHighShelvingFilter.m in Sources */,
 				99A8EEAC1C4AB69400A0ED54 /* ViewController.swift in Sources */,
 				99A8EEAA1C4AB69400A0ED54 /* AppDelegate.swift in Sources */,
+				99A8EEF01C4AB82900A0ED54 /* Novocaine.m in Sources */,
+				99A8EF0D1C4ABC6400A0ED54 /* NVLowShelvingFilter.m in Sources */,
+				99A8EEF41C4AB98B00A0ED54 /* Recorder.m in Sources */,
+				99A8EF071C4ABC6400A0ED54 /* NVAllpassFilter.m in Sources */,
+				99A8EF091C4ABC6400A0ED54 /* NVBandpassQPeakGainFilter.m in Sources */,
+				99A8EF121C4ABC6F00A0ED54 /* NVDSP.mm in Sources */,
+				99A8EEF11C4AB82900A0ED54 /* RingBuffer.mm in Sources */,
+				99A8EEEF1C4AB82900A0ED54 /* AudioFileWriter.m in Sources */,
+				99A8EF081C4ABC6400A0ED54 /* NVBandpassFilter.m in Sources */,
+				99A8EEE31C4AB7BB00A0ED54 /* ChartView.swift in Sources */,
+				99A8EF0F1C4ABC6400A0ED54 /* NVPeakingEQFilter.m in Sources */,
+				99A8EF0C1C4ABC6400A0ED54 /* NVLowpassFilter.m in Sources */,
+				99A8EF0A1C4ABC6400A0ED54 /* NVHighpassFilter.m in Sources */,
+				99A8EEEE1C4AB82900A0ED54 /* AudioFileReader.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +598,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rinik.Rytmus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rytmus/Rytmus-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -505,6 +610,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rinik.Rytmus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rytmus/Rytmus-Bridging-Header.h";
 			};
 			name = Release;
 		};
